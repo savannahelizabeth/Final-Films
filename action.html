@@ -75,11 +75,26 @@
 
 <br> 
 
-    <h2><label for="message">Which Is Your Favorite? Why? </label><br>
+    <h2><label for="message">Which Is Your Favorite?</label><br>
     <textarea id="message" name="message"></textarea><br><br></h2>
+        
+        <input type="submit" value="Submit">
+
+            <div id="formContents"><div>
 
 
 
     </div>
     </body>
+    <script>
+        var form=document.getElementById("myForm")
+        form.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        var message = document.getElementById("message").value;       
+        
+        var formContents = document.getElementById("formContents");
+        formContents.innerHTML = "Wow! " + message + " is a good one!";
+        });
+    </script>
 </html>
