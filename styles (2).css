@@ -1,0 +1,78 @@
+* {
+    
+}
+
+.click {
+    text-align: center;
+    font-size: 200%;
+}
+body {
+
+    background: linear-gradient(rgba(175,150,246,55), rgba(255,255,255,55));
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Castoro Titling', cursive;
+}
+
+h1 {
+
+    font-family: 'Castoro Titling', cursive;
+    text-align: center;
+    font-size: 6vw; 
+    margin: 0 0 0 0;
+
+}
+
+h2 {
+
+    font-family: 'Castoro Titling', cursive;
+    text-align: center;
+    font-size: 2vw;
+    margin: 0 0 0 0;
+
+}
+
+
+ul {
+    
+    font-family: 'Castoro Titling', cursive;
+    font-style: normal;
+    text-align:center;
+    list-style-position: inside;
+    font-size: 1.7vw;
+
+}
+
+li {
+    
+    font-family: 'Castoro Titling', cursive;
+    font-style: normal;
+    text-align:center;
+    font-size: 1.3vw;
+    margin: 0 0 0 0;
+    position: static;
+
+}
+
+ .banner {
+     
+    display:flex;
+    flex-wrap: wrap; 
+    font-family: 'Castoro Titling', cursive;
+    text-align: center;
+    font-size: 2vw;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom right, rgba(135, 33, 175, 0.089), rgba(162, 0, 255, 0.089));
+}
+
+img {
+
+    border: 5px solid;
+    border-color: black;
+    padding: 3px;
+    margin: 5px;  
+
+}
+
+
